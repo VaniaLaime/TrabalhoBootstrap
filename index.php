@@ -27,7 +27,7 @@
       <a class="nav-item nav-link" href="#">Exercicio1</a>
       <a class="nav-item nav-link" href="#">Exercicio2</a>
       <a class="nav-item nav-link" href="exercicio3.php">Exercicio3</a>
-      <a class="nav-item nav-link" href="#">Exercicio4</a>
+      <a class="nav-item nav-link" href="exercicio4.php">Exercicio4</a>
       <a class="nav-item nav-link" href="#">Exercicio5</a>
       <a class="nav-item nav-link" href="#">Exercicio6</a>
       <a class="nav-item nav-link" href="#">Exercicio7</a>
