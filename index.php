@@ -26,7 +26,7 @@
         
       <a class="nav-item nav-link" href="#">Exercicio1</a>
       <a class="nav-item nav-link" href="#">Exercicio2</a>
-      <a class="nav-item nav-link" href="#">Exercicio3</a>
+      <a class="nav-item nav-link" href="exercicio3.php">Exercicio3</a>
       <a class="nav-item nav-link" href="#">Exercicio4</a>
       <a class="nav-item nav-link" href="#">Exercicio5</a>
       <a class="nav-item nav-link" href="#">Exercicio6</a>
@@ -46,8 +46,8 @@
         <div class="card" style="width: 14rem;">
         <img class="card-img-top" src="images/code.jpg" alt="Imagem de capa do card">
         <div class="card-body">
-        <h5 class="card-title">Título do card</h5>
-        <p class="card-text">Um exemplo de texto rápido para construir o título do card e fazer  preencher o conteúdo do card.</p>
+        <h5 class="card-title">Exercicio 1</h5>
+        <p class="card-text">Criar um programa em que o usuário digite um valor para a variável A, um valor para a variável B, troque os valores das variáveis de forma que A tenha o valor de B e B tenha o valor de A. Apresentar os valores de A e B.</p>
         <a href="#" class="btn btn-primary">Visitar</a>
     </div>
           </div>
@@ -55,8 +55,8 @@
             <div class="card" style="width: 14rem;">
         <img class="card-img-top" src="images/code.jpg" alt="Imagem de capa do card">
         <div class="card-body">
-        <h5 class="card-title">Título do card</h5>
-        <p class="card-text">Um exemplo de texto rápido para construir o título do card e fazer  preencher o conteúdo do card.</p>
+        <h5 class="card-title">Exercicio 2</h5>
+        <p class="card-text">Criar um programa em que o usuário digite uma quantidade de dias e seja exibido o total em Ano(s), mês(es) e dia(s).Considerar um ano com 365 dias e um mês com 30 dias.</p>
         <a href="#" class="btn btn-primary">Visitar</a>
     </div>
           </div>
@@ -65,17 +65,17 @@
             <div class="card" style="width: 14rem;">
         <img class="card-img-top" src="images/code.jpg" alt="Imagem de capa do card">
         <div class="card-body">
-        <h5 class="card-title">Título do card</h5>
-        <p class="card-text">Um exemplo de texto rápido para construir o título do card e fazer  preencher o conteúdo do card.</p>
-        <a href="#" class="btn btn-primary">Visitar</a>
+        <h5 class="card-title">Exercicio 3</h5>
+        <p class="card-text">Criar um programa que leia o salário mensal atual de um funcionário e o percentual de reajuste. Calcular e escrever o valor do novo salário.</p>
+        <a href="exercicio3.php" class="btn btn-primary">Visitar</a>
     </div>
           </div>
             
                 <div class="card" style="width: 14rem;">
         <img class="card-img-top" src="images/code.jpg" alt="Imagem de capa do card">
         <div class="card-body">
-        <h5 class="card-title">Título do card</h5>
-        <p class="card-text">Um exemplo de texto rápido para construir o título do card e fazer  preencher o conteúdo do card.</p>
+        <h5 class="card-title">Exercicio 4</h5>
+        <p class="card-text">Criar um programa de uma equação de segundo grau.</p>
         <a href="#" class="btn btn-primary">Visitar</a>
     </div>
           </div>
@@ -84,8 +84,8 @@
                 <div class="card" style="width: 14rem;">
         <img class="card-img-top" src="images/code.jpg" alt="Imagem de capa do card">
         <div class="card-body">
-        <h5 class="card-title">Título do card</h5>
-        <p class="card-text">Um exemplo de texto rápido para construir o título do card e fazer  preencher o conteúdo do card.</p>
+        <h5 class="card-title">Exercicio 5</h5>
+        <p class="card-text">Criar um programa que leia 5 valores e exiba: o maior valor, o menor valor, o segundo maior valor e o segundo menor valor.</p>
         <a href="#" class="btn btn-primary">Visitar</a>
     </div>
           </div>
@@ -95,8 +95,8 @@
                 <div class="card" style="width: 14rem;">
         <img class="card-img-top" src="images/code.jpg" alt="Imagem de capa do card">
         <div class="card-body">
-        <h5 class="card-title">Título do card</h5>
-        <p class="card-text">Um exemplo de texto rápido para construir o título do card e fazer  preencher o conteúdo do card.</p>
+        <h5 class="card-title">Exercicio 6</h5>
+        <p class="card-text">Criar um programa que leia o nome de 2 times e o número de gols marcados na partida (para cada time). Escrever o nome do vencedor. Caso não haja vencedor deverá ser impressa a palavra EMPATE.</p>
         <a href="#" class="btn btn-primary">Visitar</a>
     </div>
           </div>
@@ -104,8 +104,8 @@
                 <div class="card" style="width: 14rem;">
         <img class="card-img-top" src="images/code.jpg" alt="Imagem de capa do card">
         <div class="card-body">
-        <h5 class="card-title">Título do card</h5>
-        <p class="card-text">Um exemplo de texto rápido para construir o título do card e fazer  preencher o conteúdo do card.</p>
+        <h5 class="card-title">Exercicio 7</h5>
+        <p class="card-text">Criar um programa que leia um valor numérico e seja exibido a menor quantidade de notas possível para o valor. Exemplo 587 – 5 notas de 100, uma nota de 50, uma nota de 20, uma nota de 10, uma nota de 5 e uma nota de 2.</p>
         <a href="#" class="btn btn-primary">Visitar</a>
     </div>
           </div>
@@ -113,8 +113,8 @@
                 <div class="card" style="width: 14rem;">
         <img class="card-img-top" src="images/code.jpg" alt="Imagem de capa do card">
         <div class="card-body">
-        <h5 class="card-title">Título do card</h5>
-        <p class="card-text">Um exemplo de texto rápido para construir o título do card e fazer  preencher o conteúdo do card.</p>
+        <h5 class="card-title">Exercicio 8</h5>
+        <p class="card-text">Criar um programa que leia o número inicial e um número final e apresente todas as tabuadas do intervalo.</p>
         <a href="#" class="btn btn-primary">Visitar</a>
     </div>
           </div>
@@ -123,8 +123,8 @@
                 <div class="card" style="width: 16rem;">
         <img class="card-img-top" src="images/code.jpg" alt="Imagem de capa do card">
         <div class="card-body">
-        <h5 class="card-title">Título do card</h5>
-        <p class="card-text">Um exemplo de texto rápido para construir o título do card e fazer  preencher o conteúdo do card.</p>
+        <h5 class="card-title">Exercicio 9</h5>
+        <p class="card-text">Criar um programa que apresente os múltiplos de 3 do intervalo de 1 a 200.</p>
         <a href="#" class="btn btn-primary">Visitar</a>
     </div>
           </div>
