@@ -12,8 +12,10 @@
     <title>Olá, mundo!</title>
   </head>
   <body>
+      <div class="container-fluid p-0">
+      
 <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
- <a class="navbar-brand" href="#">
+ <a class="navbar-brand" href="index.php">
     <img src="images/Logo.png" width="30" height="30" class="d-inline-block align-top" alt="">
     Exercicios
   </a>
@@ -22,17 +24,17 @@
   </button>
   <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
     <div class="navbar-nav">
-      <a class="nav-item nav-link active" href="#">Home <span class="sr-only">(Página atual)</span></a>
+      <a class="nav-item nav-link active" href="index.php">Home <span class="sr-only">(Página atual)</span></a>
         
-      <a class="nav-item nav-link" href="#">Exercicio1</a>
-      <a class="nav-item nav-link" href="#">Exercicio2</a>
+      <a class="nav-item nav-link" href="exercicio1.php">Exercicio1</a>
+      <a class="nav-item nav-link" href="exercicio2.php">Exercicio2</a>
       <a class="nav-item nav-link" href="exercicio3.php">Exercicio3</a>
       <a class="nav-item nav-link" href="exercicio4.php">Exercicio4</a>
       <a class="nav-item nav-link" href="#">Exercicio5</a>
       <a class="nav-item nav-link" href="#">Exercicio6</a>
       <a class="nav-item nav-link" href="#">Exercicio7</a>
       <a class="nav-item nav-link" href="#">Exercicio8</a>  
-      <a class="nav-item nav-link" href="#">Exercicio9</a> 
+      <a class="nav-item nav-link" href="exercicio9.php">Exercicio9</a> 
         
         
     </div>
@@ -40,15 +42,16 @@
 </nav>
     <section>
       
+    
       <div class="container center" style="margin-top:5rem;">
-        <div class="card-deck" style="margin-bottom:2rem;">
+        <div class="card-deck mb-3" >
             
         <div class="card" style="width: 14rem;">
         <img class="card-img-top" src="images/code.jpg" alt="Imagem de capa do card">
         <div class="card-body">
         <h5 class="card-title">Exercicio 1</h5>
         <p class="card-text">Criar um programa em que o usuário digite um valor para a variável A, um valor para a variável B, troque os valores das variáveis de forma que A tenha o valor de B e B tenha o valor de A. Apresentar os valores de A e B.</p>
-        <a href="#" class="btn btn-primary">Visitar</a>
+        <a href="exercicio1.php" class="btn btn-primary">Visitar</a>
     </div>
           </div>
             
@@ -57,7 +60,7 @@
         <div class="card-body">
         <h5 class="card-title">Exercicio 2</h5>
         <p class="card-text">Criar um programa em que o usuário digite uma quantidade de dias e seja exibido o total em Ano(s), mês(es) e dia(s).Considerar um ano com 365 dias e um mês com 30 dias.</p>
-        <a href="#" class="btn btn-primary">Visitar</a>
+        <a href="exercicio2.php" class="btn btn-primary">Visitar</a>
     </div>
           </div>
             
@@ -76,11 +79,11 @@
         <div class="card-body">
         <h5 class="card-title">Exercicio 4</h5>
         <p class="card-text">Criar um programa de uma equação de segundo grau.</p>
-        <a href="#" class="btn btn-primary">Visitar</a>
+        <a href="exercicio4.php" class="btn btn-primary">Visitar</a>
     </div>
           </div>
     </div> 
-           <div class="card-deck" style="margin-bottom:2rem;" >
+           <div class="card-deck mb-3"  >
                 <div class="card" style="width: 14rem;">
         <img class="card-img-top" src="images/code.jpg" alt="Imagem de capa do card">
         <div class="card-body">
@@ -119,16 +122,17 @@
     </div>
           </div>
             </div>
-          
-                <div class="card" style="width: 16rem;">
+          <div class="card-deck-auto container-left mb-3">
+                <div class="card " style="width: 16rem;">
         <img class="card-img-top" src="images/code.jpg" alt="Imagem de capa do card">
         <div class="card-body">
         <h5 class="card-title">Exercicio 9</h5>
         <p class="card-text">Criar um programa que apresente os múltiplos de 3 do intervalo de 1 a 200.</p>
-        <a href="#" class="btn btn-primary">Visitar</a>
+        <a href="exercicio9.php" class="btn btn-primary">Visitar</a>
     </div>
           </div>
             
+          </div>
           
     </div>
         
@@ -138,13 +142,13 @@
 <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js" integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49" crossorigin="anonymous"></script>
 <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js" integrity="sha384-ChfqqxuZUCnJSK3+MXmPNIyE6ZbWh2IMqE241rYiqJxyMiZ6OW/JmZQ5stwEULTy" crossorigin="anonymous"></script>    
 
-    <footer>
-
-        <p class="pargh">&copy; Direitos reservados, Breno , James e Vania </p>
-
-      </footer>
- 
-      
+      <footer class="footer navbar-fixed-bottom py-3 bg-dark text-light text-center">
+           
+            <p class="mb-0">&copy; Direitos reservados, Breno , James e Vania </p>
+          
+        </footer>
+        
+      </div>
   
   </body>
 </html>
