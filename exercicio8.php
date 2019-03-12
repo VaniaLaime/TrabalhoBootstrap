@@ -9,7 +9,7 @@
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
       <link rel="stylesheet" href="css/style.css">
 
-    <title>Exercicio 6 !</title>
+    <title>Exercicio 8 !</title>
   </head>
   <body>
         <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
@@ -40,34 +40,22 @@
   </div>
 </nav>
     
-        <!-- exercico 6-->
-      <h1 class="display-4 text-muted">exercicio 6</h1>
+        <!-- exercico 8-->
+      <h1 class="display-4 text-muted">exercicio 8</h1>
      
      <form method="post" action="#" class="form-inline">
       <div class="form-group mb-2">
         <div class="col-sm-5">
-          <input type="text" name="nomeTime1" class="form-control"  placeholder="digite o nome do 1° time" /> 
+          <input type="number" name="num1" class="form-control"  placeholder="digite o 1° número" /> 
         </div>
       </div>
 
       <div class="form-group mb-2">
         <div class="col-sm-5">
-          <input type="number" name="placarTime1" class="form-control" placeholder="digite o placar do 1° time" />
+          <input type="number" name="num2" class="form-control" placeholder="digite o 2° número" />
         </div>
       </div>
-
-      <div class="form-group mb-2">
-        <div class="col-sm-5">
-          <input type="text" name="nomeTime2" class="form-control"  placeholder="digite o nome do 2° time" /> 
-        </div>
-      </div>
-
-      <div class="form-group mb-2">
-        <div class="col-sm-5">
-          <input type="number" name="placarTime2" class="form-control" placeholder="digite o placar do 2° time" />
-        </div>
-      </div>
-
+      
       <div class="col-sm-5">
 	     	<input type="submit" class="btn btn-primary"  value="ver total" />	
       </div>      
@@ -77,24 +65,22 @@
       <?php
         //echo "<h1 class='titulo' > exercicio 6 </h1>"
          
-        $nomeTime1 = isset($_POST["nomeTime1"])?$_POST["nomeTime1"]:""; 
-        $placarTime1 = isset($_POST["placarTime1"])?$_POST["placarTime1"]:""; 
-        $nomeTime2 = isset($_POST["nomeTime2"])?$_POST["nomeTime2"]:""; 
-        $placarTime2 = isset($_POST["placarTime2"])?$_POST["placarTime2"]:""; 
+        $num1 = isset($_POST["num1"])?$_POST["num1"]:0; 
+        $num2 = isset($_POST["num2"])?$_POST["num2"]:0;
 
-        if (isset($_POST["nomeTime1"]))
+        if (isset($_POST["num1"]))
         {
-          if ($placarTime1>$placarTime2){
-            echo "Vencedor: $nomeTime1";
+          for($i=$num1; $i<=$num2; $i++)
+          {
+            for($c=1; $c<=10; $c++)
+            {
+              $mult = $i*$c;
+              echo "$i x $c = $mult<br>";
+            }
+            echo "<br>";
           }
-          elseif ($placarTime2>$placarTime1){
-            echo "Vencedor: $nomeTime2";
-          }
-          else{
-            echo "Empate!";
-          }
-        }       
-      
+        }
+
       ?>
     <!-- JavaScript (Opcional) -->
     <!-- jQuery primeiro, depois Popper.js, depois Bootstrap JS -->
