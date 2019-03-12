@@ -59,7 +59,7 @@
       <?php
         //echo "<h1 class='titulo' > exercicio 7 </h1>"
          
-        $valor = isset($_POST["valor"])?$_POST["valor"]:""; 
+        $valor = isset($_POST["valor"])?$_POST["valor"]:0; 
 
         $cedula100 = $valor/100;
         $valor%=100;
