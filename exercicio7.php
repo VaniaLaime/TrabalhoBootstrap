@@ -58,42 +58,43 @@
       
       <?php
         //echo "<h1 class='titulo' > exercicio 7 </h1>"
+
+        if(isset($_POST["valor"]))
+        {
          
-        $valor = isset($_POST["valor"])?$_POST["valor"]:0; 
+          $valor = isset($_POST["valor"])?$_POST["valor"]:0; 
 
-        $cedula100 = $valor/100;
-        $valor%=100;
+          $cedula100 = $valor/100;
+          $valor%=100;
 
-        $cedula50 = $valor/50;
-        $valor%=50;
+          $cedula50 = $valor/50;
+          $valor%=50;
 
-        $cedula20 = $valor/20;
-        $valor%=20;
+          $cedula20 = $valor/20;
+          $valor%=20;
 
-        $cedula10 = $valor/10;
-        $valor%=10;
+          $cedula10 = $valor/10;
+          $valor%=10;
 
-        $cedula5 = $valor/5;
-        $valor%=5;
+          $cedula5 = $valor/5;
+          $valor%=5;
 
-        $cedula2 = $valor/2;
-        $valor%=2;
+          $cedula2 = $valor/2;
+          $valor%=2;
 
-        $cedula1 = $valor/1;
-        $valor%=1;
+          $cedula1 = $valor/1;
+          $valor%=1;
 
 
-        echo "CÉDULAS:";
-        echo " <br>nota(s) de R$100,00: " . floor($cedula100);
-        echo " <br>nota(s) de R$50,00: " . floor($cedula50);
-        echo " <br>nota(s) de R$20,00: " . floor($cedula20);
-        echo " <br>nota(s) de R$10,00: " . floor($cedula10);
-        echo " <br>nota(s) de R$5,00: " . floor($cedula5);
-        echo " <br>nota(s) de R$2,00: " . floor($cedula2);
-        echo " <br>nota(s) de R$1,00: " . floor($cedula1);     
-
-        
-
+          echo "CÉDULAS:";
+          echo " <br>nota(s) de R$100,00: " . floor($cedula100);
+          echo " <br>nota(s) de R$50,00: " . floor($cedula50);
+          echo " <br>nota(s) de R$20,00: " . floor($cedula20);
+          echo " <br>nota(s) de R$10,00: " . floor($cedula10);
+          echo " <br>nota(s) de R$5,00: " . floor($cedula5);
+          echo " <br>nota(s) de R$2,00: " . floor($cedula2);
+          echo " <br>nota(s) de R$1,00: " . floor($cedula1);     
+      }   
       
       
       ?>
