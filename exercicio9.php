@@ -40,9 +40,9 @@
 </nav>
       
       
-      <!-- exercico 3-->
-   <div class="container center">
-      <h1 class="display-4 text-muted">exercicio 9</h1>
+      <!-- exercico 9-->
+      <div class="container center my-3">
+      <h1 class="display-4 text-muted">Exercicio 9</h1>
       <h2>Multiplos de 3 do 1 ao 200 </h2>
    
       

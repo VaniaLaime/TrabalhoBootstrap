@@ -9,7 +9,7 @@
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
       <link rel="stylesheet" href="css/style.css">
 
-    <title>Exercicio1 !</title>
+    <title>Exercicio 2 !</title>
   </head>
   <body>
       <div class="container-fluid p-0">
@@ -42,9 +42,9 @@
 </nav>
       
       
-      <!-- exercico 3-->
+      <!-- exercico 2-->
    <div class="container center my-3">
-      <h1 class="display-4 text-muted pb-2">exercicio 2</h1>
+      <h1 class="display-4 text-muted pb-2">Exercicio 2</h1>
     <form method="post">
         <div class="form-group">
           <div class="col-sm-5">
@@ -53,7 +53,7 @@
         
 
         <div class="form-group">
-          <div class="col-sm-5">
+          <div class="col-sm-5 mt-3">
 		        <input type="submit" class="btn btn-primary" value="ver numeros :" />	
           </div>
         </div>

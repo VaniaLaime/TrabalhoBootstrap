@@ -9,7 +9,7 @@
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
       <link rel="stylesheet" href="css/style.css">
 
-    <title>Olá, mundo!</title>
+    <title>Homepage</title>
   </head>
   <body>
       <div class="container-fluid p-0">
@@ -85,11 +85,11 @@
     </div> 
            <div class="card-deck mb-3"  >
                 <div class="card" style="width: 14rem;">
-        <img class="card-img-top" src="images/code.jpg" alt="Imagem de capa do card">
+        <img class="card-img-top" src="images/maiormenor.png" alt="Imagem de capa do card">
         <div class="card-body">
         <h5 class="card-title">Exercicio 5</h5>
         <p class="card-text">Criar um programa que leia 5 valores e exiba: o maior valor, o menor valor, o segundo maior valor e o segundo menor valor.</p>
-        <a href="#" class="btn btn-primary">Visitar</a>
+        <a href="exercicio5.php" class="btn btn-primary">Visitar</a>
     </div>
           </div>
             
@@ -100,7 +100,7 @@
         <div class="card-body">
         <h5 class="card-title">Exercicio 6</h5>
         <p class="card-text">Criar um programa que leia o nome de 2 times e o número de gols marcados na partida (para cada time). Escrever o nome do vencedor. Caso não haja vencedor deverá ser impressa a palavra EMPATE.</p>
-        <a href="#" class="btn btn-primary">Visitar</a>
+        <a href="exercicio6.php" class="btn btn-primary">Visitar</a>
     </div>
           </div>
             
@@ -109,7 +109,7 @@
         <div class="card-body">
         <h5 class="card-title">Exercicio 7</h5>
         <p class="card-text">Criar um programa que leia um valor numérico e seja exibido a menor quantidade de notas possível para o valor. Exemplo 587 – 5 notas de 100, uma nota de 50, uma nota de 20, uma nota de 10, uma nota de 5 e uma nota de 2.</p>
-        <a href="#" class="btn btn-primary">Visitar</a>
+        <a href="exercicio7.php" class="btn btn-primary">Visitar</a>
     </div>
           </div>
             
@@ -118,7 +118,7 @@
         <div class="card-body">
         <h5 class="card-title">Exercicio 8</h5>
         <p class="card-text">Criar um programa que leia o número inicial e um número final e apresente todas as tabuadas do intervalo.</p>
-        <a href="#" class="btn btn-primary">Visitar</a>
+        <a href="exercicio8.php" class="btn btn-primary">Visitar</a>
     </div>
           </div>
             </div>
