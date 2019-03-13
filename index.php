@@ -30,10 +30,10 @@
       <a class="nav-item nav-link" href="exercicio2.php">Exercicio2</a>
       <a class="nav-item nav-link" href="exercicio3.php">Exercicio3</a>
       <a class="nav-item nav-link" href="exercicio4.php">Exercicio4</a>
-      <a class="nav-item nav-link" href="#">Exercicio5</a>
-      <a class="nav-item nav-link" href="#">Exercicio6</a>
-      <a class="nav-item nav-link" href="#">Exercicio7</a>
-      <a class="nav-item nav-link" href="#">Exercicio8</a>  
+      <a class="nav-item nav-link" href="exercicio5.php">Exercicio5</a>
+      <a class="nav-item nav-link" href="exercicio6.php">Exercicio6</a>
+      <a class="nav-item nav-link" href="exercicio7.php">Exercicio7</a>
+      <a class="nav-item nav-link" href="exercicio8.php">Exercicio8</a>  
       <a class="nav-item nav-link" href="exercicio9.php">Exercicio9</a> 
         
         
@@ -56,7 +56,7 @@
           </div>
             
             <div class="card" style="width: 14rem;">
-        <img class="card-img-top" src="images/code.jpg" alt="Imagem de capa do card">
+        <img class="card-img-top" src="images/date.jpg" alt="Imagem de capa do card">
         <div class="card-body">
         <h5 class="card-title">Exercicio 2</h5>
         <p class="card-text">Criar um programa em que o usuário digite uma quantidade de dias e seja exibido o total em Ano(s), mês(es) e dia(s).Considerar um ano com 365 dias e um mês com 30 dias.</p>
@@ -66,7 +66,7 @@
             
             
             <div class="card" style="width: 14rem;">
-        <img class="card-img-top" src="images/code.jpg" alt="Imagem de capa do card">
+        <img class="card-img-top" src="images/money.jpg" alt="Imagem de capa do card">
         <div class="card-body">
         <h5 class="card-title">Exercicio 3</h5>
         <p class="card-text">Criar um programa que leia o salário mensal atual de um funcionário e o percentual de reajuste. Calcular e escrever o valor do novo salário.</p>
@@ -75,7 +75,7 @@
           </div>
             
                 <div class="card" style="width: 14rem;">
-        <img class="card-img-top" src="images/code.jpg" alt="Imagem de capa do card">
+        <img class="card-img-top" src="images/eqsegundograu.jpg" alt="Imagem de capa do card">
         <div class="card-body">
         <h5 class="card-title">Exercicio 4</h5>
         <p class="card-text">Criar um programa de uma equação de segundo grau.</p>
@@ -96,7 +96,7 @@
            
            
                 <div class="card" style="width: 14rem;">
-        <img class="card-img-top" src="images/code.jpg" alt="Imagem de capa do card">
+        <img class="card-img-top" src="images/futebol.jpg" alt="Imagem de capa do card">
         <div class="card-body">
         <h5 class="card-title">Exercicio 6</h5>
         <p class="card-text">Criar um programa que leia o nome de 2 times e o número de gols marcados na partida (para cada time). Escrever o nome do vencedor. Caso não haja vencedor deverá ser impressa a palavra EMPATE.</p>
@@ -105,7 +105,7 @@
           </div>
             
                 <div class="card" style="width: 14rem;">
-        <img class="card-img-top" src="images/code.jpg" alt="Imagem de capa do card">
+        <img class="card-img-top" src="images/dinheiro.jpg" alt="Imagem de capa do card">
         <div class="card-body">
         <h5 class="card-title">Exercicio 7</h5>
         <p class="card-text">Criar um programa que leia um valor numérico e seja exibido a menor quantidade de notas possível para o valor. Exemplo 587 – 5 notas de 100, uma nota de 50, uma nota de 20, uma nota de 10, uma nota de 5 e uma nota de 2.</p>
@@ -114,7 +114,7 @@
           </div>
             
                 <div class="card" style="width: 14rem;">
-        <img class="card-img-top" src="images/code.jpg" alt="Imagem de capa do card">
+        <img class="card-img-top" src="images/multiplication.jpg" alt="Imagem de capa do card">
         <div class="card-body">
         <h5 class="card-title">Exercicio 8</h5>
         <p class="card-text">Criar um programa que leia o número inicial e um número final e apresente todas as tabuadas do intervalo.</p>
@@ -124,7 +124,7 @@
             </div>
           <div class="card-deck-auto container-left mb-3">
                 <div class="card " style="width: 16rem;">
-        <img class="card-img-top" src="images/code.jpg" alt="Imagem de capa do card">
+        <img class="card-img-top" src="images/multiplode3.jpg" alt="Imagem de capa do card">
         <div class="card-body">
         <h5 class="card-title">Exercicio 9</h5>
         <p class="card-text">Criar um programa que apresente os múltiplos de 3 do intervalo de 1 a 200.</p>

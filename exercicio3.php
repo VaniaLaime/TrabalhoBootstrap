@@ -30,10 +30,10 @@
       <a class="nav-item nav-link" href="exercicio2.php">Exercicio2</a>
       <a class="nav-item nav-link" href="exercicio3.php">Exercicio3</a>
       <a class="nav-item nav-link" href="exercicio4.php">Exercicio4</a>
-      <a class="nav-item nav-link" href="#">Exercicio5</a>
-      <a class="nav-item nav-link" href="#">Exercicio6</a>
-      <a class="nav-item nav-link" href="#">Exercicio7</a>
-      <a class="nav-item nav-link" href="#">Exercicio8</a>  
+      <a class="nav-item nav-link" href="exercicio5.php">Exercicio5</a>
+      <a class="nav-item nav-link" href="exercicio6.php">Exercicio6</a>
+      <a class="nav-item nav-link" href="exercicio7.php">Exercicio7</a>
+      <a class="nav-item nav-link" href="exercicio8.php">Exercicio8</a>  
       <a class="nav-item nav-link" href="exercicio9.php">Exercicio9</a> 
         
         
@@ -70,13 +70,18 @@
          <?php
         //echo "<h1 class='titulo' > exercicio 3 </h1>"
          
+            
         $salarioMensal= isset($_POST["txSalarioM"])?$_POST["txSalarioM"]:"";
 
         $percentualReajuste = isset($_POST["txPReajuste"])?$_POST["txPReajuste"]:"";
+		
+		if($salarioMensal<>0  and $percentualReajuste){
         $preajuste=$salarioMensal*($percentualReajuste/100);
         $nSalario = $salarioMensal + $preajuste; 
         echo "novo salario é" . $nSalario;
-       
+		}else{
+			echo "";
+		}
 
       ?>
           </div>   
