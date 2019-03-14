@@ -42,55 +42,83 @@
 </nav>
       
       
-      <!-- exercico 2-->
-   <div class="container center my-3">
-      <h1 class="display-4 text-muted pb-2">Exercicio 2</h1>
-    <form method="post">
-        <div class="form-group">
-          <div class="col-sm-5">
-		        <input type="text" name="txNumero"  class="form-control" placeholder="digite um numero em dias" />	
-          </div>
-        
+      <!-- exercico 5-->
+         <div class="container center my-3">
+      <h1 class="display-4 text-muted">Exercicio 5</h1>
+     
+     <form method="post" action="#" class="form-inline">
+      <div class="form-group mb-2">
+        <div class="col-sm-5">
+          <input type="number" name="txNum1" class="form-control"  placeholder="digite o 1° numero" /> 
+        </div>
+      </div>
 
-        <div class="form-group">
-          <div class="col-sm-5 mt-3">
-		        <input type="submit" class="btn btn-primary" value="ver numeros :" />	
-          </div>
+      <div class="form-group mb-2">
+        <div class="col-sm-5">
+          <input type="number" name="txNum2" class="form-control" placeholder="digite o 2° numero" />
         </div>
+      </div>
+
+      <div class="form-group mb-2">
+        <div class="col-sm-5">
+          <input type="number" name="txNum3" class="form-control"  placeholder="digite o 3° numero" /> 
         </div>
-	</form>
-      
+      </div>
+
+      <div class="form-group mb-2">
+        <div class="col-sm-5">
+          <input type="number" name="txNum4" class="form-control" placeholder="digite o 4° numero" />
+        </div>
+      </div>
+         
+         
+      <div class="form-group mb-2">
+        <div class="col-sm-5">
+          <input type="number" name="txNum5" class="form-control" placeholder="digite o 5° numero" />
+        </div>
+      </div>
+
+
+      <div class="col-sm-5">
+	     	<input type="submit" class="btn btn-primary"  value="ver total :" />	
+      </div>      
+	   </form>
       
          <?php
        
         
-        $Num = isset($_POST["txNumero"])?$_POST["txNumero"]:"";
-        $Ano = 0;
-        $Dia = 0;
-        $Mes = 0;
-       
-        while($Num>0){
+        $Num1 = isset($_POST["txNum1"])?$_POST["txNum1"]:"";
+        $Num2 = isset($_POST["txNum2"])?$_POST["txNum2"]:"";
+        $Num3 = isset($_POST["txNum3"])?$_POST["txNum3"]:"";
+        $Num4 = isset($_POST["txNum4"])?$_POST["txNum4"]:"";
+        $Num5 = isset($_POST["txNum5"])?$_POST["txNum5"]:"";
+             
+         
+             $vetor = array($Num1, $Num2, $Num3, $Num4, $Num5);
+             $Maior = 0;
+             $Menor = 0;
+             
+             for($i=0;$i<=4;$i++){
+                 if($vetor[$i]>=$Num1 && $vetor[$i]>=$Num2 && $vetor[$i]>=$Num3 &&
+                    $vetor[$i]>=$Num4 && $vetor[$i]>=$Num5){
+                     echo"O número $vetor[$i] é o maior <br>";
+                     $Maior = $vetor[$i];
+                 }
+                 
+                 if($vetor[$i]<=$Num1 && $vetor[$i]<=$Num2 && $vetor[$i]<=$Num3 && 
+                    $vetor[$i]<=$Num4 && $vetor[$i]<=$Num5){
+                     echo"O número $vetor[$i] é o menor <br>";
+                     $Menor = $vetor[$i];
+                 }
+                 
+                 
+             }
+             
+             
+             
             
-            if($Num>=365){
-                $Num = $Num - 365;
-                $Ano++;
-            }
-            else if($Num>=30){
-                $Num = $Num - 30;
-                $Mes++;
-            }
-            else if($Num>0){
-                $Num = $Num - 1;
-                $Dia++;
-            }
-        }
-       
-   
-       
-        echo "Total de Anos : " . $Ano . "<br>";
-        echo "Total de Mes : " . $Mes . "<br>";
-        echo "Total de Dias : " . $Dia . "<br>";
-      
+            
+             
       ?>
           </div>   
 
